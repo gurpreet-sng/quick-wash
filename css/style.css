@@ -607,7 +607,7 @@ a.arrow-down-btn:hover{
 }
 .book-now-footer h4{
     font-size: 24px;
-    color: #1C3AA4;
+    color: #000000;
 }
 .book-now-footer a{
     color: #FACE0F;
@@ -619,7 +619,7 @@ a.arrow-down-btn:hover{
 }
 .footer-bouble {
     position: absolute;
-    top: -40px;
+    top: 60px;
 }
 .book-now-footer{
     padding-left: 100px;
@@ -633,17 +633,17 @@ a.arrow-down-btn:hover{
 }
 .footer-contact p{
     font-size: 16px;
-    color: #1C3AA4;
+    color: #000000;
 }
 .footer-contact a{
-    color: #1C3AA4;
+    color: #000000;
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
 }
 .footer-address a{
     text-decoration: none;
-    color: #1C3AA4;
+    color: #000000;
 }
 .footer-address{
     text-align: center;
@@ -659,12 +659,12 @@ a.arrow-down-btn:hover{
     margin: 0px 10px;
 }
 .footer-social ul li i{
-    color: #1C3AA4;
+    color: #000000;
     font-size: 25px;
 }
 .copyright-text p{
     margin-bottom: 0px;
-    color: #1C3AA4;
+    color: #000000;
     font-size: 16px;
 }
 .copyright-section{
@@ -673,9 +673,6 @@ a.arrow-down-btn:hover{
 }
 .arrow-down-btn i{
     flex-shrink: 0;
-}
-.see-what-we-can-do{
-    margin-bottom: -100px;
 }
 .inner-page-image{
     margin-bottom: -200px;
