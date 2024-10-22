@@ -602,7 +602,6 @@ a.arrow-down-btn:hover{
     padding-top: 100px;
     background-color: #ffffff;
     border-radius: 30px 30px 0px 0px;
-    margin-top: -30px;
     position: relative;
 }
 .book-now-footer h4{
@@ -1162,6 +1161,36 @@ img.zoom{
 }
 .our-clients-says-section .section-text-style h3{
     color: #000000;
+}
+.our-clients-says-section .section-text-style{
+    margin-left: 0px;
+}
+.person-name{
+    display: flex;
+    align-items: center;
+}
+.review-style i{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.review-style p{
+    color: #000000;
+    font-size: 23px;
+}
+.review-style .person-name i{
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+.review-style .person-name{
+    margin-top: 40px;
+}
+.person-name-text h6{
+    font-family: "Days One", sans-serif;
+    color: #000000;
+    font-size: 23px;
+}
+.person-name-text p{
+
 }
 @media only screen and (min-width: 1920px){
 
