@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 header{
     background-color: #042B3D;
@@ -99,7 +99,7 @@ header .icon-link{
 }
 .banner-section-wrapper p{
     color: #ffffff;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
     margin-bottom: 40px;
 }
@@ -1118,6 +1118,7 @@ img.zoom{
 }
 .owner-text{
     margin-right: 20px;
+    text-align: right;
 }
 .banner-section-wrapper .spaceleft-right{
     padding: 0px 20px;
@@ -1164,10 +1165,14 @@ img.zoom{
 }
 .our-clients-says-section .section-text-style{
     margin-left: 0px;
+    margin-bottom: 60px;
 }
 .person-name{
     display: flex;
     align-items: center;
+}
+.review-style{
+    margin-right: 20px;
 }
 .review-style i{
     display: inline-block;
@@ -1190,7 +1195,93 @@ img.zoom{
     font-size: 23px;
 }
 .person-name-text p{
-
+    color: #2B4448;
+    font-size: 18px;
+}
+.trust-our-service{
+    background-color: #042B3D;
+    /*background-image: url("../images/track-tires.png");*/
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.trust-our-service:before{
+    content: "";
+    width: 30%;
+    height: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.trust-our-service .section-text-style{
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.trust-our-service .section-text-style p{
+    font-size: 26px;
+    line-height: 40px;
+}
+.intro-point i{
+    display: inline-block;
+}
+.intro-point-text h6{
+    color: #ffffff;
+    font-family: "Days One", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.intro-point-text{
+    margin-left: 20px
+}
+.intro-point-text p{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.intro-point-text p a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.intro-point{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.how-can-we{
+    background-color: #ffffff;
+    padding: 30px;
+    position: relative;
+    z-index: 10;
+}
+.how-can-we h4{
+    font-family: "Days One", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+.how-can-we .form-control{
+    border-radius: 0px;
+    height: 50px;
+    padding: 0px 20px;
+}
+.how-can-we textarea.form-control{
+    height: 140px;
+    padding: 20px;
+}
+.btn{
+    background-color: #042B3D;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: "Days One", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    border-radius: 0px;
+    padding: 15px 30px;
+    display: inline-block;
+    width: auto;
 }
 @media only screen and (min-width: 1920px){
 
