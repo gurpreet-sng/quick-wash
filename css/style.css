@@ -1101,7 +1101,7 @@ img.zoom{
     color: #ffffff;
     font-size: 20px;
 }   
-.owner-text p{
+.banner-section-wrapper .owner-text p{
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 0px;
@@ -1310,16 +1310,20 @@ img.zoom{
 }
 @media only screen and (max-width: 1199px){
 
+    header .btn-style{
+        font-size: 14px;
+        width: 170px;
+    }
     .navbar-brand{
         flex-shrink: 0;
-        width: 170px;
+        width: 150px;
     }
     .pricing-box h2{
         font-size: 70px;
     }
     .navbar-expand-md .navbar-nav .nav-link{
-        font-size: 16px;
-        padding: 15px 15px;
+        font-size: 14px;
+        padding: 15px 5px;
     }
     .navbar-nav .btn-style{
         width: auto;
@@ -1349,8 +1353,11 @@ img.zoom{
     .satisfied-customers-section h3{
         font-size: 40px;
     }
-    .work-point h5 {
-        font-size: 35px;
+    .work-point p{
+        font-size: 18px;
+    }
+    .work-point-text{
+        margin-left: 20px;
     }
     .footer-bouble{
         width: 300px;
@@ -1361,9 +1368,66 @@ img.zoom{
     .contact-form-wrapper h4{
         font-size: 30px;
     }
+    .section-text-style h3{
+        font-size: 30px;
+    }
+
 }
 @media only screen and (max-width: 991px){
 
+    .how-can-we h4{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .how-can-we .btn{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .intro-point-text p{
+        font-size: 20px;
+    }
+    .person-name{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .review-style .person-name i{
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .our-clients-says-section.space-top-bottom{
+        padding: 80px 0px;
+    }
+    .section-text-style h3 br{
+        display: none;
+        font-size: 25px;
+    }
+    .section-text-style h3{
+        font-size: 25px;
+    }
+    .trust-our-service .section-text-style p{
+        font-size: 22px;
+    }
+    .trust-our-service .section-text-style p br{
+        display: none;
+    }
+    .who-we-are-section.space-top-100{
+        margin-top: 60px;
+    }
+    .section-text-style{
+        margin-left: 10px;
+    }
+    .person-name-text h6{
+        font-size: 20px;
+    }
+    .banner-form-wrapper{
+        justify-content: start;
+    }
+    .banner-content-wrapper{
+        padding-bottom: 60px;
+    }
+    header .icon-link{
+        margin-left: 20px;
+    }
     .plan-circle{
         height: 200px;
         width: 200px;
@@ -1431,8 +1495,8 @@ img.zoom{
     .satisfied-customers-section h3{
         font-size: 32px;
     }
-    .work-point h5{
-        font-size: 28px;
+    .car-washing-center{
+        padding: 60px 0px;
     }
     .work-point p{
         font-size: 18px;
@@ -1450,12 +1514,9 @@ img.zoom{
         font-size: 60px;
         line-height: 75px;
     }
-    .banner-section-wrapper p{
-        font-size: 30px;
-    }
     .navbar-expand-md .navbar-nav .nav-link{
         font-size: 14px;
-        padding: 15px 10px;
+        padding: 15px 5px;
     }
     .navbar-nav .btn-style{
         font-size: 14px;
@@ -1467,9 +1528,46 @@ img.zoom{
     .banner-form{
         margin-top: 150px;
     }
+    .navbar-brand{
+        width: 130px;
+    }
+    .navbar-brand{
+        position: static;
+    }
+    header{
+        padding-top: 30px;
+    }
+    .btn-style{
+        font-size: 15px;
+    }
+    .work-point{
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 767px){
 
+    .navbar-brand{
+        margin: unset;
+        position: absolute;
+        right: auto;
+        left: 0;
+        top: 0;
+    }
+    .navbar-toggler{
+        right: 0;
+        position: absolute;
+        top: 20px;
+    }
+    .banner-section-wrapper.space-top-120{
+        padding-top: 160px;
+    }
+    header .icon-link{
+        display: none;
+    }
+    header .btn-style{
+        display: none;
+    }
     .plan-circle{
         margin-bottom: 30px;
     }
@@ -1535,9 +1633,6 @@ img.zoom{
     .car-washing-center .section-title-style{
         padding: 60px 40px;
     }
-    .our-strength-section.space-top-bottom.space-top-120{
-        padding-top: 30px;
-    }
     .satisfied-customers-section.space-top-bottom.space-top-120{
         padding-top: 60px;
         padding-bottom: 60px;
@@ -1596,6 +1691,60 @@ img.zoom{
     .our-strength-section.service-page-banner {
         padding-bottom: 120px;
     }
+    .yellow-strip{
+        padding: 20px 0px 10px;
+    }
+    .work-point{
+        margin-bottom: 20px;
+    }
+    .work-point-text{
+        margin-left: 0px;
+    }
+    .who-we-are-section.space-top-100 {
+        margin-top: 20px;
+    }
+    .who-we-image{
+        margin-bottom: 40px;
+    }
+    .section-text-style .who-we-image-two{
+        margin-top: 40px;
+    }
+    .section-title-style h2{
+        margin-bottom: 30px;
+    }
+    .detail-icon h5{
+        font-size: 20px;
+    }
+    .cargraphic-row .space-top-100{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .see-what-we-can-do{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-top: 40px;
+    }
+    .our-clients-says-section.space-top-bottom {
+        padding: 60px 0px;
+    }
+    .trust-our-service:before{
+        display: none;
+    }
+    .trust-our-service.space-top-bottom{
+        padding: 80px 0px;
+    }
+    .intro-point{
+        margin-bottom: 30px;
+    }
+    .how-can-we{
+        margin-top: 20px;
+    }
+    .footer-logo{
+        width: 200px;
+    }
+    .banner-section-wrapper p{
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 575px){
 
@@ -1640,19 +1789,12 @@ img.zoom{
         width: 300px;
         height: 410px;
     }
-    .banner-section-wrapper.space-top-120{
-        padding-top: 60px;
-    }
     .banner-section-wrapper h1{
         font-size: 30px;
         line-height: 40px;
     }
     .banner-section-wrapper{
         padding-bottom: 60px;
-    }
-    .banner-section-wrapper p{
-        font-size: 22px;
-        margin-bottom: 20px;
     }
     .btn-style{
         font-size: 16px;
@@ -1744,7 +1886,7 @@ img.zoom{
         margin: 30px auto !important;
     }
     .footer-logo{
-        width: 200px;
+        width: 150px;
     }
     .footer-top{
         padding-top: 40px;
@@ -1765,9 +1907,79 @@ img.zoom{
     .navbar-nav .btn-style{
         margin-top: 10px;
     }
-}
-
-
-footer .elementor-shape.elementor-shape-top{
-    display: none !important;
+    .navbar-nav{
+        padding-top: 80px;
+    }
+    .navbar-brand{
+        width: 100px;
+    }
+    .banner-section-wrapper.space-top-120{
+        padding-top: 120px;
+    }
+    .owner-image{
+        flex-shrink: 0;
+    }
+    .owner-text h6{
+        font-size: 18px;
+    }
+    .owner-text a{
+        font-size: 18px;
+    }  
+    .owner-intro{
+        padding: 30px 20px;
+    } 
+    .banner-content-wrapper{
+        padding-bottom: 40px;
+    }
+    .car-washing-center {
+        padding: 40px 0px;
+    }
+    .section-text-style h3{
+        font-size: 20px;
+    }
+    .section-text-style {
+        margin-left: 0px;
+    }
+    .section-text-style p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .our-strength-section .section-title-style{
+        margin-bottom: 20px;
+    }
+    .detail-icon h5{
+        font-size: 18px;
+    }
+    .detail-icon p{
+        font-size: 14px;
+    }
+    .see-what-we-can-do{
+        padding-bottom: 0px;
+    }
+    .our-clients-says-section .section-text-style{
+        margin-bottom: 40px;
+    }
+    .review-style p{
+        font-size: 20px;
+    }
+    .trust-our-service .section-text-style p{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .intro-point-text p{
+        font-size: 18px;
+    }
+    .intro-point i{
+        flex-shrink: 0;
+        width: 60px;
+    }
+    .how-can-we{
+        padding: 30px 20px;
+    }
+    .how-can-we h4{
+        font-size: 20px;
+    }
+    .intro-point-text h6{
+        font-size: 18px;
+    }
 }
