@@ -719,15 +719,16 @@ a.arrow-down-btn:hover{
 .service-box h3{
     color: #000000;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
     margin-top: 15px;
+    font-family: "Days One", sans-serif;
+    text-align: left;
 }
 .service-box{
     margin-bottom: 40px;
 }
 .services-section-wrapper{
-    margin-top: -150px;
     padding-bottom: 100px;
 }
 .our-strength-section.service-page-banner{
@@ -735,6 +736,10 @@ a.arrow-down-btn:hover{
 }
 .section-title-style.inner-page-title h2{
     margin-bottom: 0px;
+    text-align: left;
+}
+section-title-style text-center inner-page-title{
+    
 }
 .service-img{
     text-align: center;
@@ -1282,6 +1287,10 @@ img.zoom{
     padding: 15px 30px;
     display: inline-block;
     width: auto;
+}
+.inner-page-banner{
+    background-color: #042B3D;
+    margin-bottom: 100px;
 }
 @media only screen and (min-width: 1920px){
 
