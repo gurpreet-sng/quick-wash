@@ -177,6 +177,7 @@ header .icon-link{
     text-transform: uppercase;
     font-weight: 700;
     margin: 0px 50px;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 .car-washing-points ul{
     margin: 0px;
@@ -214,6 +215,7 @@ header .icon-link{
     color: #FACE0F;
     font-size: 17px;
     margin-bottom: 20px;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 .section-title-style h6 i {
     display: inline-block;
@@ -737,8 +739,11 @@ a.arrow-down-btn:hover{
 .section-title-style.inner-page-title h2{
     margin-bottom: 0px;
     text-align: left;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
 }
-section-title-style text-center inner-page-title{
+.section-title-style.inner-page-title{
     
 }
 .service-img{
@@ -1053,6 +1058,7 @@ img.zoom{
     color: #ffffff;
     font-weight: 700;
     line-height: 70px;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 .plan-circle{
     padding: 15px;
@@ -1294,6 +1300,9 @@ img.zoom{
 }
 @media only screen and (min-width: 1920px){
 
+    .section-title-style.inner-page-title h2{
+        font-size: 90px;
+    }
     .icon-link{
         font-size: 18px;
     }
