@@ -3,6 +3,9 @@ body{
     padding: 0px;
     font-family: "DM Sans", sans-serif;
 }
+.margin-bottom-zero{
+    margin-bottom: 0px !important;
+}
 header{
     background-color: #042B3D;
     border-bottom: 1px solid #042B3D;
@@ -675,9 +678,6 @@ a.arrow-down-btn:hover{
 .arrow-down-btn i{
     flex-shrink: 0;
 }
-.inner-page-image{
-    margin-bottom: -200px;
-}
 .space-top-200{
     padding-top: 200px;
 }
@@ -688,7 +688,7 @@ a.arrow-down-btn:hover{
     padding-top: 120px;
 }
 .mission-vision-box{
-    background-color: #2D4CB8;
+    background-color: #004E72;
     border-radius: 30px;
     padding: 40px;
     min-height: 500px;
@@ -743,14 +743,14 @@ a.arrow-down-btn:hover{
     font-size: 80px;
     font-weight: 700;
 }
-.section-title-style.inner-page-title{
-    
+.margin-top-minusfive{
+    margin-top: -5px;
 }
 .service-img{
     text-align: center;
 }
 .pricing-box{
-    background-color: #2D4CB8;
+    background-color: #004E72;
     border-radius: 30px;
     padding: 30px 20px;
     text-align: center;
@@ -1321,6 +1321,12 @@ img.zoom{
     background-color: #000000;
     color: #ffffff;
 }
+.space-top-bottom.inner-page-banner.pricing-page-banner{
+    padding-bottom: 250px;
+}
+.pricing-section-wrapper{
+    margin-top: -150px;
+}
 @media only screen and (min-width: 1920px){
 
     .section-title-style.inner-page-title h2{
@@ -1384,6 +1390,10 @@ img.zoom{
         font-size: 54px;
         line-height: 65px;
     }
+    .section-title-style.inner-page-title h2{
+        font-size: 54px;
+        line-height: 65px;
+    }
     .section-title-style ul li{
         font-size: 30px;
     }
@@ -1412,10 +1422,12 @@ img.zoom{
     .section-text-style h3{
         font-size: 30px;
     }
-
 }
 @media only screen and (max-width: 991px){
 
+    .space-top-bottom.inner-page-banner{
+        padding-top: 50px;
+    }
     .how-can-we h4{
         font-size: 24px;
         margin-bottom: 20px;
@@ -1480,12 +1492,8 @@ img.zoom{
     .person-info-wrapper{
         margin-bottom: 60px;
     }
-    .pricing-box{
+    .services-section-wrapper.pricing-section-wrapper .col-lg-3.col-md-6{
         margin-bottom: 40px;
-    }
-    .services-section-wrapper {
-        margin-top: -100px;
-        padding-bottom: 60px;
     }
     .service-box h3{
         font-size: 20px;
@@ -1585,9 +1593,30 @@ img.zoom{
         align-items: flex-start;
         flex-direction: column;
     }
+    .mission-vision-box{
+        margin-bottom: 40px;
+    }
 }
 @media only screen and (max-width: 767px){
 
+    .pricing-box h2{
+        font-size: 60px;
+    }
+    .pricing-box h5{
+        font-size: 20px;
+    }
+    .nav.nav-tabs .nav-link{
+        margin-bottom: 20px;
+    }
+    .inner-page-banner{
+        margin-bottom: 60px;
+    }
+    .service-box h3{
+        text-align: center;
+    }
+    .services-section-wrapper {
+        padding-bottom: 0px;
+    }
     .navbar-brand{
         margin: unset;
         position: absolute;
@@ -1635,6 +1664,7 @@ img.zoom{
     }
     .about-images-section.space-top-100{
         margin-top: 40px;
+        padding-bottom: 20px;
     }
     .inner-page-image {
         margin-bottom: 60px;
@@ -1664,6 +1694,10 @@ img.zoom{
         position: static;
     }
     .section-title-style h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .section-title-style.inner-page-title h2{
         font-size: 40px;
         line-height: 50px;
     }
@@ -1786,9 +1820,21 @@ img.zoom{
     .banner-section-wrapper p{
         font-size: 20px;
     }
+    
+    .space-top-bottom.inner-page-banner {
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+    .our-strength-section.space-top-bottom {
+        padding-top: 60px;
+    }
+    .about-image{
+        margin-bottom: 40px;
+    }
 }
 @media only screen and (max-width: 575px){
 
+    
     .contact-section-wrapper.banner-section-wrapper.space-top-bottom{
         padding-top: 60px;
     }
@@ -1870,6 +1916,7 @@ img.zoom{
         line-height: 40px;
         margin-bottom: 20px;
     }
+   
     .section-title-style ul li{
         font-size: 20px;
         line-height: 30px;
@@ -2004,7 +2051,7 @@ img.zoom{
         font-size: 20px;
     }
     .trust-our-service .section-text-style p{
-        font-size: 20px;
+        font-size: 18px;
         line-height: 32px;
     }
     .intro-point-text p{
@@ -2022,5 +2069,9 @@ img.zoom{
     }
     .intro-point-text h6{
         font-size: 18px;
+    }
+    .mission-vision-box p{
+        font-size: 18px;
+        line-height: 36px;
     }
 }
