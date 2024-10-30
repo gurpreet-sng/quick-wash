@@ -6,6 +6,9 @@ body{
 .margin-bottom-zero{
     margin-bottom: 0px !important;
 }
+.before-after-wrapper.pricing-section-wrapper{
+    background-color: transparent;
+}
 header{
     background-color: #042B3D;
     border-bottom: 1px solid #042B3D;
