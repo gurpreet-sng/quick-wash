@@ -9,6 +9,12 @@ body{
 .before-after-wrapper.pricing-section-wrapper{
     background-color: transparent;
 }
+.person-name.noflex{
+    flex-direction: column;
+}
+.banner-section-wrapper .person-name.noflex p{
+    margin: 0px;
+}
 header{
     background-color: #042B3D;
     border-bottom: 1px solid #042B3D;
@@ -906,7 +912,7 @@ img.zoom{
     padding: 20px;
 }
 .contact-form-wrapper.banner-form{
-    background-color: #2543af;
+    background-color: #004E72;
 }
 .contact-form-wrapper h4{
     color: #F5F5F5;
@@ -916,7 +922,11 @@ img.zoom{
     margin-bottom: 40px;
 }
 .contact-form-wrapper.banner-form .form-control{
-    background-color: #2d4bb5;
+    background-color: #042B3D;
+    color: #ffffff;
+}
+.contact-form-wrapper.banner-form .form-select{
+    background-color: #042B3D;
     color: #ffffff;
 }
 .form-control:focus{
@@ -928,7 +938,7 @@ img.zoom{
 }
 .contact-form-wrapper.banner-form .btn{
     background-color: #face0f;
-    color: #1c3aa4;
+    color: #000000;
 }
 .list-style li{
     margin-bottom: 20px;
@@ -1834,9 +1844,11 @@ img.zoom{
     .about-image{
         margin-bottom: 40px;
     }
+    .space-top-bottom.inner-page-banner.pricing-page-banner {
+        padding-bottom: 200px;
+    }
 }
 @media only screen and (max-width: 575px){
-
     
     .contact-section-wrapper.banner-section-wrapper.space-top-bottom{
         padding-top: 60px;
