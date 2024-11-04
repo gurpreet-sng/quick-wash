@@ -859,24 +859,24 @@ img.zoom{
     font-size: 16px;
 }
 .contact-section-wrapper.banner-section-wrapper .person-info h6{
-    color: #1C3AA4;
+    color: #004E72;
 }
 .person-img{
     margin-bottom: 40px;
 }
 .contact-section-wrapper.banner-section-wrapper p{
     font-size: 16px;
-    color: #1C3AA4;
+    color: #004E72;
 }
 .person-info .person-phone{
-    color: #1C3AA4;
+    color: #004E72;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 36px;    
     display: block;
     font-weight: 600;
 }
 .person-info .person-email{
-    color: #1C3AA4;
+    color: #004E72;
     font-weight: 600;
     font-size: 20px;
     text-decoration: none;
@@ -897,11 +897,11 @@ img.zoom{
     margin-bottom: 20px;
 }
 .address-title a{
-    color: #A6B7F5;
+    color: #9bb5c1;
     text-decoration: none;
 }
 .contact-section-wrapper.banner-section-wrapper .address-title p{
-    color: #A6B7F5;
+    color: #9bb5c1;
     text-decoration: none;
 }
 .contact-section-wrapper .banner-content{
@@ -946,7 +946,21 @@ img.zoom{
 .form-select:focus{
     box-shadow: none !important;
 }
-
+.select_box:after{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    content: "";
+    z-index: 105;
+}
+.select_box{
+    position: relative;
+}
 
 #brand_data {
     height: 275px;
@@ -1612,6 +1626,9 @@ img.zoom{
 }
 @media only screen and (max-width: 767px){
 
+    .contact-section-wrapper.banner-section-wrapper{
+        padding-top: 140px;
+    }
     .pricing-box h2{
         font-size: 60px;
     }
@@ -1850,9 +1867,6 @@ img.zoom{
 }
 @media only screen and (max-width: 575px){
     
-    .contact-section-wrapper.banner-section-wrapper.space-top-bottom{
-        padding-top: 60px;
-    }
     .contact-section-wrapper.banner-section-wrapper h1{
         font-size: 30px;
         line-height: 40px;
