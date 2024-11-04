@@ -140,6 +140,19 @@ header .icon-link{
     height: 50px;
     padding: 0px 20px;
 }
+.booking-form-wrapper ::placeholder{
+    color: #ffffff;
+}
+.booking-form-wrapper .banner-form .form-control,.booking-form-wrapper .banner-form .form-select{
+    background-color: #042B3D;
+    color: #ffffff;
+}
+.section-title-style.inner-page-title.text-center h2{
+    text-align: center;
+}
+.booking-form-wrapper ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
 .banner-form .btn{
     background-color: #000000;
     border-radius: 0px;
@@ -1354,6 +1367,12 @@ img.zoom{
 .pricing-section-wrapper{
     margin-top: -150px;
 }
+.booking-form-wrapper {
+    background-image: url(../images/g9.jpg);
+}
+.booking-form-wrapper .banner-form {
+    background-color: rgba(255, 255, 255, 0.9);
+}
 @media only screen and (min-width: 1920px){
 
     .section-title-style.inner-page-title h2{
@@ -1863,6 +1882,9 @@ img.zoom{
     }
     .space-top-bottom.inner-page-banner.pricing-page-banner {
         padding-bottom: 200px;
+    }
+    .booking-form-wrapper .banner-form{
+        margin-top: 0px;
     }
 }
 @media only screen and (max-width: 575px){
