@@ -1483,6 +1483,9 @@ img.zoom{
 }
 @media only screen and (max-width: 991px){
 
+    .owner-intro{
+        margin-top: 0px;
+    }
     .space-top-bottom.inner-page-banner{
         padding-top: 50px;
     }
