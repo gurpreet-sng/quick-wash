@@ -32,13 +32,14 @@ header{
     right: 0;
     margin: auto;
     width: 185px;
+    top: 0px;
 }
 header .spaceleft-right{
     padding: 0px 20px;
 }
 header{
     position: relative;
-    padding-top: 85px;
+    padding-top: 30px;
 }
 .navbar-nav.me-auto li{
     text-align: center;
@@ -1407,7 +1408,7 @@ img.zoom{
     }
 }
 @media only screen and (min-width: 1350px){
-    
+
     .owner-intro{
         padding: 30px 15px;
     }
