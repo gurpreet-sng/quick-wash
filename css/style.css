@@ -127,7 +127,7 @@ header .icon-link{
     margin-top: 0px;
 }
 .banner-section-wrapper{
-    background-image:url("../images/transparent-img.png");
+    background-image:url("../images/transparent-img.png") !important;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center bottom;
@@ -1146,7 +1146,8 @@ img.zoom{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 410px;
+    width: 100%;
+    margin-top: -90px;
 }
 .owner-text h6{
     color: #ffffff;
@@ -1403,6 +1404,12 @@ img.zoom{
         color: #ffffff;
         font-weight: 700;
         line-height: 85px;
+    }
+}
+@media only screen and (min-width: 1350px){
+    
+    .owner-intro{
+        padding: 30px 15px;
     }
 }
 @media only screen and (max-width: 1199px){
