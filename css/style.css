@@ -3,8 +3,15 @@ body{
     padding: 0px;
     font-family: "DM Sans", sans-serif;
 }
-.book-now-page-banner{
-
+.our-strength-section-button{
+    z-index: 10;
+}
+.btn-style:active{
+    color: #ffffff !important;
+    background-color: #042B3D !important;
+}
+.one-time-packages{
+    margin-top: -150px;
 }
 .space-top-bottom.book-now-page-banner{
     padding-top: 170px;
@@ -223,6 +230,9 @@ header .icon-link{
     color: #ffffff;
     position: relative;
     margin: 0px 0px 0px 155px;
+}
+.select-your-plan-section{
+    padding-bottom: 60px;
 }
 .car-washing-points ul li:before{
     content: "";
@@ -778,12 +788,19 @@ a.arrow-down-btn:hover{
 .service-img{
     text-align: center;
 }
+.one-time-packages .col-lg-3.col-md-6{
+    margin-bottom: 30px;
+}
 .pricing-box{
     background-color: #004E72;
     border-radius: 30px;
     padding: 30px 20px;
     text-align: center;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 .pricing-box  .btn-style{
     width: auto;
@@ -1130,6 +1147,7 @@ img.zoom{
     text-shadow: 1px 1px #26378833;
     letter-spacing: 1px;
     text-transform: uppercase;
+    margin-bottom: 0px;
 }
 .plan-circle:hover{
     box-shadow: unset;
@@ -1371,6 +1389,7 @@ img.zoom{
 }
 .space-top-bottom.inner-page-banner.pricing-page-banner{
     padding-bottom: 250px;
+    padding-top: 150px;
 }
 .pricing-section-wrapper{
     margin-top: -150px;
@@ -1384,6 +1403,15 @@ img.zoom{
 .copyright-text a{
     text-decoration: underline;
     color: #000000;
+}
+.policy-page-banner.space-top-120{
+    padding-top: 190px;    
+}
+.policy-page-banner h2{
+    margin-bottom: 0px;
+}
+.policy-page-banner .section-title-style.text-center{
+    margin-bottom: 0px;
 }
 @media only screen and (min-width: 1920px){
 
@@ -1666,6 +1694,41 @@ img.zoom{
 }
 @media only screen and (max-width: 767px){
 
+    .select-your-plan-section {
+        padding-bottom: 0px;
+    }
+    .plan-circle h4{
+        font-size: 18px;
+    }
+    nav.navbar{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 10;
+        background-color:#042B3D !important;
+        z-index: 5;
+    }
+    #header-file{
+        position: relative;
+        z-index: 50;
+    }
+    .banner-section-wrapper.space-top-120{
+        position: relative;
+        z-index: 20;
+    }
+    .policy-page-banner br{
+        display: block;
+    }
+    header {
+        padding-top: 10px;
+    }
+    .navbar-brand{
+        width: 100px;
+    }
+    .space-top-bottom.policy-page-banner.inner-page-banner{
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
     .contact-section-wrapper.banner-section-wrapper{
         padding-top: 140px;
     }
@@ -1691,13 +1754,14 @@ img.zoom{
         margin: unset;
         position: absolute;
         right: auto;
-        left: 0;
+        left: 15px;
         top: 0;
     }
     .navbar-toggler{
         right: 0;
         position: absolute;
         top: 20px;
+        right: 20px;
     }
     .banner-section-wrapper.space-top-120{
         padding-top: 160px;
@@ -1910,6 +1974,9 @@ img.zoom{
 }
 @media only screen and (max-width: 575px){
     
+    .pricing-box h2 {
+        font-size: 45px;
+    }
     .contact-section-wrapper.banner-section-wrapper h1{
         font-size: 30px;
         line-height: 40px;
@@ -2145,5 +2212,8 @@ img.zoom{
     .mission-vision-box p{
         font-size: 18px;
         line-height: 36px;
+    }
+    .space-top-bottom.policy-page-banner.inner-page-banner{
+        padding-top: 120px;
     }
 }
