@@ -3,6 +3,12 @@ body{
     padding: 0px;
     font-family: "DM Sans", sans-serif;
 }
+.book-now-page-banner{
+
+}
+.space-top-bottom.book-now-page-banner{
+    padding-top: 170px;
+}
 .margin-bottom-zero{
     margin-bottom: 0px !important;
 }
